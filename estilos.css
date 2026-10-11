@@ -1,0 +1,183 @@
+/* CONFIGURACIÓN GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaf6fb;
+    color: #222;
+}
+
+/* ENCABEZADO */
+
+header {
+    background-color: #8ecae6;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* MENÚ */
+
+nav {
+    background-color: #5fa8d3;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #90d4ed;
+    border-radius: 6px;
+}
+
+/* CONTENIDO */
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    border: 1px solid #bde0ef;
+    box-shadow: 0 3px 10px #00000020;
+}
+
+h2 {
+    color: #4b91b5;
+    font-size: 27px;
+}
+
+h3 {
+    color: #5fa8d3;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* IMÁGENES */
+
+img {
+    width: 100%;
+    max-width: 650px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    border: 3px solid #8ecae6;
+}
+
+/* LISTAS */
+
+li {
+    margin: 12px 0;
+    font-size: 17px;
+}
+
+/* TARJETAS */
+
+.tarjetas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjetas div {
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    background-color: #dff3fa;
+    border: 2px solid #8ecae6;
+    border-radius: 10px;
+}
+
+/* VIDEO */
+
+video {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 3px solid #8ecae6;
+}
+
+.nota {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* MENSAJE FINAL */
+
+.mensaje {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #4b91b5;
+    background-color: #dff3fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #5fa8d3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* DISEÑO PARA CELULARES */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
